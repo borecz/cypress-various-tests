@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://m.aboutyou.ie",
+  "testFiles": "**/**.spec.ts",
+  "viewportWidth": 412,
+  "viewportHeight": 868,
+  "userAgent": "'Mozilla/5.0 (Linux; Android 10; SM-N970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36'",
+  "integrationFolder": "cypress/integration",
+  "watchForFileChanges": false,
+  "waitForAnimations": true,
+  "numTestsKeptInMemory": 3,
+  "defaultCommandTimeout": 15000,
+  "requestTimeout": 15000,
+  "failOnStatusCode": false,
+  "video": false,
+  "videoCompression": 0,
+  "screenshot": true,
+  "chromeWebSecurity": false,
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  }
+}

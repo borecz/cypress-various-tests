@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "allowJs": false,
+    "removeComments": true,
+    "baseUrl": "./",
+    "types": [
+      "cypress",
+      "node",
+    ],
+    "outDir": "./dist",
+    "lib": [
+      "es6",
+      "ESNext",
+      "dom",
+      "ES5"
+    ],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@fixtures/*": [
+        "cypress/fixtures/*"
+      ],
+      "@cypress/*": [
+        "cypress/*"
+      ],
+      "@support/*": [
+        "support/*"
+      ],
+      "@helpers/*": [
+        "cypress/helpers/*"
+      ],
+      "@pages/*": [
+        "cypress/pages/*"
+      ],
+      "@integration/*": [
+        "cypress/integration/*"
+      ],
+    }
+  },
+  "include": [
+    "./**/*.ts",
+  ]
+}
