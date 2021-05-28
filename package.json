@@ -7,7 +7,8 @@
   "author": "Simone Borelli",
   "dependencies": {
     "cypress": "7.4.0",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.2",
+    "yargs": "^17.0.1"
   },
   "devDependencies": {
     "cypress-grep": "2.3.2",

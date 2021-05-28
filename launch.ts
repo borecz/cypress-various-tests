@@ -59,7 +59,7 @@ export interface CypressConfiguration {
     projectId?: string;
   };
   env: {
-    grep: string | undefined;
+    grepTags: string | undefined;
   };
   record: boolean;
   parallel: boolean;
@@ -77,7 +77,7 @@ export const cypressConfig: CypressConfiguration = {
     video: false,
   },
   env: {
-    grep: GREP
+    grepTags: GREP
   },
   record: false,
   parallel: false,
